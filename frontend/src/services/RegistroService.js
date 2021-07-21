@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://oj0qx.sse.codesandbox.io";
 
 export const createUser = async (user) => {
   return await axios.post(`${API}/users`, user).then((response) => {
