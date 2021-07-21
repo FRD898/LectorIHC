@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://gutendex.com/books";
+const API = "https://gutendex.com/books";
 
 
 export const searchBook = async (query) => {
